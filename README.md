@@ -2,4 +2,4 @@
 Agregados y modificaciones realizadas a Minibloq.
 
 ## Instalación
-Por ahora, copiar y pegar en una instalación de Minibloq para agregar/reemplazar los componentes.
+Descargar el contenido del repositorio como un archivo zip, y descomprimirlo dentro del directorio de instalación del Minibloq.
