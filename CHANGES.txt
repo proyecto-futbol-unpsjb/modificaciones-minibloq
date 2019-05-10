@@ -1,0 +1,7 @@
+2019/05/10
+- hard\.DuinoBot.v2.3.CDC\rel\action.020.0070.ServoRC.Arduino.v1.0.rel: se
+  modifica el puerto al que esta conectado el servo01 de 17 a 19 (A5), para
+  utilizar el servo de recorrido continuo.
+- hard\.DuinoBot.v2.3.CDC\main.board: se modifica la velocidad de conexión de
+  Serial1 a 9600 baudios para poder utilizar el modulo Bluetooth HC-05.
+  
