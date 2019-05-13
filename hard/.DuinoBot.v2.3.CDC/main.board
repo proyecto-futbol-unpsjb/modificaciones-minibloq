@@ -206,8 +206,12 @@
 		</cmd>
 	</deploy>
 	<instances>
-		<serial0 instanceType="Serial"/>
+		<!--
+        <serial0 instanceType="Serial"/>
 		<serial1 instanceType="Serial"/>
+        -->
+        <USB instanceType="Serial"/>
+		<Bluetooth instanceType="Serial"/>
 
 		<BatteryPin instanceType="analogRead"/>
 		<sensor0 instanceType="analogRead"/>

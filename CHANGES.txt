@@ -1,3 +1,13 @@
+2019/05/13
+- hard\.DuinoBot.v2.3.CDC\lib\board.h: se agregan #defines para USB y
+  Bluetooth.
+- hard\.DuinoBot.v2.3.CDC\main.board: se modifica en <instances> los
+  correspondientes a serial0 y serial1
+- blocks\action.020.0040.Serial.Arduino.v1.0\main.block: se modifica
+  serial0 por USB
+- blocks\action.020.0040.Serial.Arduino.v1.0\SerialGetter.block: se modifica
+  serial0 por USB
+
 2019/05/10
 - hard\.DuinoBot.v2.3.CDC\rel\action.020.0070.ServoRC.Arduino.v1.0.rel: se
   modifica el puerto al que esta conectado el servo01 de 17 a 19 (A5), para
