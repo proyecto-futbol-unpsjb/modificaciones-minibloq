@@ -7,21 +7,45 @@
 		<include><s>Servo.h</s></include>
 	</includeFiles>
 	<instancesHeader>
-		<s>extern Servo servo0;</s>
-		<s>extern Servo servo1;</s>
+		<!--<s>extern Servo servo0;</s>
+		<s>extern Servo servo1;</s>-->
+        <s>extern Servo servoS0;</s>
+        <s>extern Servo servoS1;</s>
+        <s>extern Servo servoS2;</s>
+        <s>extern Servo servoS3;</s>
+        <s>extern Servo servoS4;</s>
+        <s>extern Servo servoS5;</s>
 	</instancesHeader>	
 	<instancesCode>
-		<s>Servo servo0;</s>
-		<s>Servo servo1;</s>
+		<!--<s>Servo servo0;</s>
+		<s>Servo servo1;</s>-->
+        <s>Servo servoS0;</s>
+        <s>Servo servoS1;</s>
+        <s>Servo servoS2;</s>
+        <s>Servo servoS3;</s>
+        <s>Servo servoS4;</s>
+        <s>Servo servoS5;</s>
 	</instancesCode>
 	<instances>
-		<servo0 instanceType="ServoRC"/>
-		<servo1 instanceType="ServoRC"/>
+		<!--<servo0 instanceType="ServoRC"/>
+		<servo1 instanceType="ServoRC"/>-->
+        <servoS0 instanceType="ServoRC"/>
+        <servoS1 instanceType="ServoRC"/>
+        <servoS2 instanceType="ServoRC"/>
+        <servoS3 instanceType="ServoRC"/>
+        <servoS4 instanceType="ServoRC"/>
+        <servoS5 instanceType="ServoRC"/>
 	</instances>
 	<initBoardCode>
 		<s>	//setPin() does not attach the servo (so the pin can be used by other library if the servo is not used).&#10;</s>
-		<s>	servo0.setPin(16);&#10;</s>
-		<s>	servo1.setPin(19);&#10;</s>
+		<!--<s>	servo0.setPin(16);&#10;</s>
+		<s>	servo1.setPin(19);&#10;</s>-->
+        <s> servoS0.setPin(14);&#10;</s>
+        <s> servoS1.setPin(15);&#10;</s>
+        <s> servoS2.setPin(16);&#10;</s>
+        <s> servoS3.setPin(17);&#10;</s>
+        <s> servoS4.setPin(18);&#10;</s>
+        <s> servoS5.setPin(19);&#10;</s>
 	</initBoardCode>
 	<build>
 		<cmd>

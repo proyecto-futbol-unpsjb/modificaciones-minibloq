@@ -1,3 +1,8 @@
+2019/25/11
+- hard/.DuinoBot.v2.3.CDC/rel/action.020.0070.ServoRC.Arduino.v1.0.rel: se 
+  agrega opciones de conexión desde servoS0 a servo05, para conectar en el 
+  pin el servo pateador en cualquier pin del robot.
+
 2019/05/19
 - hard\.DuinoBot.v2.3.CDC\rel\action.020.0060.Motor.Arduino.v1.0.rel: se
   setean ambos motores en sentido contra-reloj: setClockwise(false).
